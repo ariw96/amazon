@@ -1,0 +1,301 @@
+@font-face {
+    font-family: amazon_ember;
+    src: url(/CSS/fonts/Amazon\ Ember\ Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: amazon_ember;
+    src: url(/CSS/fonts/Amazon\ Ember\ Display\ Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: #0f1111;
+    height: 10vh;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.header .head {
+    font-family: "amazon_ember";
+    font-size: 16px;
+    color: #fff;
+}
+
+.amazon img {
+    height: 7vh;
+}
+
+.deliver {
+    background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -71px -306px;
+    width: 17px;
+    height: 20px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: row;
+}
+
+.flag figure {
+    width: 30px;
+}
+
+.flag img {
+    width: 100%;
+}
+
+#search {
+    width: 00px;
+    height: 35px;
+}
+
+.cart {
+    background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -10px -340px;
+    width: 38px;
+    height: 26px;
+}
+
+.nav {
+    background: #232f3e;
+    height: 6vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .item {
+    font-family: "amazon_ember";
+    font-size: 16px;
+    padding: 2px;
+    color: #fff;
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    padding: 7px;
+    margin: 2px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.breadcrumb {
+    display: flex;
+    align-self: flex-start;
+}
+
+.breadcrumb li {
+    padding: 1px;
+    margin: 5px;
+    display: inline;
+}
+
+.breadcrumb a {
+    color: rgb(70, 68, 68);
+    text-decoration: none;
+    font-family: "amazon_ember";
+    font-size: 12px;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 0.5fr;
+}
+
+.product {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: 5px;
+}
+
+h2 {
+    font-family: "amazon_ember";
+}
+
+.middle a {
+    text-decoration: none;
+    color: rgb(4, 84, 138);
+    font-family: "amazon_ember";
+    font-size: 12px;
+}
+
+.container-stars {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(163, 159, 159);
+}
+
+.flex-container .container-stars div {
+    padding: 20px, 50px;
+}
+
+.star-banner {
+    background: url("/img/McBZv0ZvnbehkIx.png") no-repeat -205px -398px;
+    width: 94px;
+    height: 17px;
+    border: 1px solid blue;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    font-family: "amazon_ember";
+    font-size: 13px;
+}
+
+.breadcrumb a {
+    color: rgb(4, 84, 138);
+    text-decoration: none;
+    font-family: "amazon_ember";
+    font-size: 12px;
+}
+
+.description span {
+    font-family: "amazon_ember";
+    font-size: 20px;
+    color: rgb(122, 18, 18);
+}
+
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(58, 56, 56);
+    padding: 2px;
+    margin: 2px;
+}
+
+.pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.big-pic figure {
+    height: 450px;
+    width: 450px;
+}
+
+.big-pic img {
+    height: 100%;
+    width: 100%;
+}
+
+.left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pic:first-child:hover::after {
+    content: "";
+    width: 450px;
+    height: 450px;
+    background: url("/img/box.jpg") no-repeat;
+}
+
+.right {
+    font-family: "amazon_ember";
+    font-size: 13px;
+    border: 1px solid #444;
+    border-radius: 15px;
+}
+
+.right a {
+    text-decoration: none;
+    color: rgb(4, 84, 138);
+}
+
+.right p span {
+    font-family: "amazon_ember";
+    font-size: 20px;
+    color: rgb(122, 18, 18);
+}
+
+.right .arrow {
+    background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -184px -342px;
+    width: 13px;
+    height: 8px;
+}
+
+.right p span1 {
+    font-family: "amazon_ember";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right .deliver {
+    background: url("/img/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat -71px -306px;
+    width: 17px;
+    height: 20px;
+}
+
+.right .stock {
+    font-family: "amazon_ember";
+    font-size: 20px;
+    color: rgb(7, 121, 86);
+}
+
+#qty {
+    border-radius: 3px;
+    background: rgb(219, 219, 219);
+    margin: 9px;
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    text-align: center;
+    border-radius: 40px;
+    font-family: "amazon_ember";
+    font-size: 13px;
+    color: black;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.add {
+    background: rgb(250, 227, 24);
+}
+
+.buy {
+    background: rgb(224, 147, 23);
+}
+
+.flex-container {
+    border-bottom: 1px solid #444;
+}

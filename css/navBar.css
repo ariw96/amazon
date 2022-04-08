@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-1 {
+    /* width: 100vw; */
+    height: 60px;
+    display: flex;
+    background-color: #1f1111;
+    gap: 1px;
+    /* top: 0px; */
+    color: #fff;
+}
+
+
+/* amazon icon */
+
+.icon-container {
+    cursor: pointer;
+    /* display: flex; */
+    align-items: center;
+    padding: 2px 13px 0 13px;
+}
+
+.icon-container .icon {
+    background: url("/bootcamp/amazon/img2/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat 3.937% 12.114%;
+    width: 96px;
+    height: 29px;
+    padding: 0 15px;
+}
+
+.icon-container .hover-container {
+    padding: 8px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.icon-container .hover-container:hover {
+    border-color: #fff;
+    border-radius: 2px;
+}
+
+
+/* end of amazon icon */
+
+
+/* shipping */
+
+.shipping {
+    cursor: pointer;
+    padding: 5px 0;
+    font-size: 1px;
+    /* grid-column: 3 / span 1; */
+}
+
+.shipping p {
+    padding-left: 16px;
+    color: #dadada;
+}
+
+.shipping span {
+    font-size: 13px;
+}
+
+.shipping i {
+    font-size: 14px;
+}
+
+.shipping-hover {
+    padding: 7px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.shipping-hover:hover {
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
+
+/* end of shipping */
+
+
+/* search bar */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #8b8b8b;
+    padding: 0 15px;
+    /* grid-template-columns: 4/ span 12; */
+}
+
+.search-container input {
+    width: 40rem;
+    height: 40px;
+}
+
+.search-container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dadada;
+    border-radius: 5px 0 0 5px;
+    width: 45px;
+    height: 39px;
+    color: #1f1111;
+}
+
+.search-container span {
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.search-container div {
+    width: 45px;
+    height: 39.7px;
+    background-color: #f3a847;
+    display: flex;
+    margin: auto;
+    border-radius: 0 5px 5px 0;
+}
+
+.search-container .sprite {
+    background: url("/bootcamp/amazon/img2/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat 1.5% 68%;
+    width: 35px;
+    height: 35px;
+}
+
+.search-container div i {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+
+/* end of search bar */
+
+
+/* flag */
+
+.flag-container {
+    cursor: pointer;
+    transform: translate(15px, 25px);
+}
+
+.flag-container .usa {
+    background: url("/bootcamp/amazon/img2/rzrQQdi0aRm6Dap.png") no-repeat 0 -130px;
+    width: 25px;
+    height: 18px;
+}
+
+
+/* end of flag */
+
+
+/* account */
+
+.account {
+    /* border: 1px solid red; */
+    /* transform: translateX(20px); */
+    /* padding: 7px 5px; */
+    cursor: pointer;
+}
+
+.account p {
+    font-size: 10px;
+}
+
+.account h3 {
+    font-size: 12px;
+}
+
+.account i {
+    color: #a7acb2;
+}
+
+.acc-hover {
+    padding: 7px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.acc-hover:hover {
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
+
+/* end of account */
+
+
+/* order */
+
+.order {
+    cursor: pointer;
+    transform: translateX(20px);
+    padding: 7px 5px;
+}
+
+.order p {
+    font-size: 10px;
+}
+
+.order h3 {
+    font-size: 12px;
+}
+
+.order-hover {
+    padding: 7px;
+    border: 1px solid rgba(255, 0, 0, 0);
+}
+
+.order-hover:hover {
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
+
+/* end of order */
+
+
+/* cart */
+
+.cart {
+    transform: translateX(20px);
+    display: flex;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.cart .cart-img {
+    background: url("/bootcamp/amazon/img2/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png") no-repeat 70.55% 79.858%;
+    width: 39px;
+    height: 25px;
+    transform: translateY(15px);
+}
+
+.cart p {
+    transform: translateX(40px);
+}
+
+.cart .zero {
+    transform: translate(29px, 10px);
+    font-size: 16px;
+    color: #f08805;
+    font-weight: 550;
+}
+
+
+/* end of cart */

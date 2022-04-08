@@ -1,0 +1,123 @@
+.nav-2 {
+    /* width: 100vw; */
+    height: 40px;
+    background-color: #232F3E;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.nav-2 {
+    /* display: flex; */
+    /* grid-template-columns: (auto, 1fr); */
+    color: white;
+    padding: 3.2px 2px;
+    font-size: 15px;
+}
+
+.menu {
+    background: url("/bootcamp/amazon/img2/nav-sprite-global-1x-hm-dsk-reorg._CB405937547_.png")no-repeat 51.807% 58.486%;
+    width: 18px;
+    height: 15px;
+    transform: translateX(-2.5px);
+}
+
+.nav-2 .hov {
+    cursor: pointer;
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding-bottom: 3px;
+}
+
+.nav-2 .hov:hover {
+    border-color: #ffffff;
+    border-radius: 2px;
+}
+
+
+/* nav3 */
+
+.nav-3 {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 30px;
+    background-color: #eceef2;
+    display: flex;
+    justify-content: left;
+    border-bottom: 1px solid rgb(52, 51, 51);
+    width: 100vw;
+}
+
+.nav-3 .rightNav {
+    /* transform: translateX(10px); */
+    /* border: 1px solid red; */
+    width: 40vw;
+}
+
+.nav-3 {
+    /* display: flex; */
+    padding: 3.2px 2px;
+    color: rgb(48, 44, 44);
+    font-size: 13px;
+}
+
+.nav-3 .hov-3 {
+    cursor: pointer;
+    /* border: 1px solid rgba(255, 0, 0, 0); */
+    padding-bottom: 3px;
+    color: black
+}
+
+.nav-3 .hov-3:hover div {
+    color: #dfa618;
+}
+
+
+/* nav4 */
+
+
+/* 
+.nav-4 {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%; */
+
+
+}
+.nav-4 .rightNav {
+    /* transform: translateX(10px); */
+    /* border: 1px solid red; */
+    
+    width: 40vw;
+}
+.nav-4 div {
+    display: flex;
+    padding: 3.2px 2px;
+    color: rgb(48, 44, 44);
+    font-size: 12px;
+}
+.nav-4 .hov-4 {
+    cursor: pointer;
+    /* border: 1px solid rgba(255, 0, 0, 0); */
+    
+    padding-bottom: 3px;
+    color: black
+}
+.nav-4 .hov-4:hover div {
+    text-decoration: underline;
+}
+*/
+/* .leftNav {
+    color: #1f1111;
+    width: 10%;
+} */
+
+/* .blackFriday-container {
+    width: 100vw;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+} */
